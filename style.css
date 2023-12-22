@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    min-height: 100%;
+    width: 1440px;
+    height: 1170px;
+}
+
+.wrapper {
+    border: 4px solid red;
+    min-height: 100%;
+    width: 1575px;
+    height: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstdiv {
+    width: 787.5px;
+    height: 1170px;
+    position: fixed;
+    border: 1px solid black;
+    background-color: #fff6ee ;
+    
+}
