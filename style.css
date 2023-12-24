@@ -195,3 +195,47 @@ span {
     font-size: 18px;
     
 }
+
+@media only screen and (max-width: 600px) {
+ .firstdiv {
+    display: none;
+ }
+
+ .seconddiv {
+    width: 100%;
+    position: relative;
+ }
+
+ #main {
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    width: 300px;
+    height: 260vh;
+}
+#name {
+    flex-direction: column;
+    row-gap: 0px;
+    margin-bottom: 100px;
+    
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+    .firstdiv {
+        display: none;
+        
+    }
+    
+    #main {
+        position: absolute;
+        border: 4px dotted black;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+
+ }
+}
