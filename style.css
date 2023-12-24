@@ -1,25 +1,197 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 body {
-    margin: 0;
-    background-color: #fff;
-    min-height: 100%;
-    width: 1440px;
-    height: 1170px;
+    color: rgb(15, 15, 25);
+    margin: 0px;
+    padding: 0px;
+    font-family: AlmarenaDisplayRegular, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
-    border: 4px solid red;
-    min-height: 100%;
-    width: 1575px;
-    height: 1170px;
+    /* border: 4px solid red; */
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    /* background-color: red; */
 }
 
 .firstdiv {
-    width: 787.5px;
-    height: 1170px;
-    position: fixed;
-    border: 1px solid black;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
     background-color: #fff6ee ;
+    position: relative;
+    position: fixed;
+}
+
+
+.firstcircle {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.secondcircle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    padding: 25px 0px 0px 25px;
+}
+
+.firstheader {
+    font-family: AlmarenaDisplayBold, sans-serif;
+    font-size: 3.1875rem;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 25px;
+    /* font-weight: 500; */
+    /* margin-top: 0; */
+    /* border: 1px solid black; */
+}
+
+.firstpara {
+    font-family: AlmarenaDisplayLight, sans-serif;
+    font-size: 1.375rem;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#seconddiv {
+    /* background-color: black; */
+    width: 100%;
+    height: 150vh;
+    padding: 35px 77px;
+    /* overflow-y: auto; */
+    position: relative;
+    
+}
+
+#main {
+    /* border: 2px solid red; */
+    width: 600px;
+    height: 1100px;
+    position: absolute;
+    right: 90;
+    top: 50;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 30px 60px;
+    padding-inline-start: 50px;
+    
+}
+
+h2 {
+       /* border: 1px dotted black; */
+       font-size: xx-large;
+       text-decoration: double;
+    /* width: 100%;
+    height: 40px; */
+    }
+    
+    #fill {
+        /* border: 1px dotted black; */
+        position: absolute;
+        top: 60;
+        
+   }
+
+   #name {
+   width: 100%;
+   height: 100px;
+   /* border: 1px solid black; */
+   padding-top: 10px;
+   display: flex;
+   column-gap: 50px;
+}
+
+#firstname {
+       /* border: 1px solid black; */
+       width: 250px;
+       margin-block-end: 50px;
+    }
+    .input {
+        height: 50px;
+        width: 250px;
+    }
+    
+    select {
+        height: 50px;
+        width: 250px;
+    }
+    
+    #termofuse {
+        width: 87%; 
+        /* border: 1px solid black; */
+        word-spacing: 3px;
+}
+
+#register {
+    width: 92%;
+    height: 30px; 
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #fff;
+    background-color: rgb(0,0,255,0.7);
+    border-radius: 4px;
+    padding-top: 20px;
+}
+
+#signin {
+    width: 100%;
+    height: 30px; 
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#signin a {
+    color: blue;
+}
+
+span {
+    color: blue;
+}
+
+#contact {
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 100;
+    right: 60;
+}
+
+#contact a {
+    margin: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.cspan {
+    color: #aaa;
+    bottom: 90px;
+    left: 280;
+    position: absolute;
+    font-size: small;
+    text-decoration: double;
+}
+
+#star {
+    color: rgb(255,0,0,0.5);
+    font-size: 18px;
     
 }
